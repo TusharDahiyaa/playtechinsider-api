@@ -16,7 +16,8 @@ app.use(
   cors({
     credentials: true,
     origin:
-      "playtechinsider.onrender.com" || "playtechinsider-api.onrender.com",
+      "https://playtechinsider.onrender.com" ||
+      "https://playtechinsider-api.onrender.com",
   })
 );
 
